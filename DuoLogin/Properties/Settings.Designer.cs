@@ -22,5 +22,41 @@ namespace DuoLogin.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("DI2ZH186SAMF9YDU5GS2")]
+        public string IntegrationKey {
+            get {
+                return ((string)(this["IntegrationKey"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Qml87YS3AsF5Nr5bCw0LQpluYbwmm6PKaknxGRvj")]
+        public string SecretKey {
+            get {
+                return ((string)(this["SecretKey"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("api-fa198eb1.duosecurity.com")]
+        public string ApiHostname {
+            get {
+                return ((string)(this["ApiHostname"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("ADMN3TRL42554GOQEAA36ITZFCS8CQVJHRWDX8ET")]
+        public string RandomKey {
+            get {
+                return ((string)(this["RandomKey"]));
+            }
+        }
     }
 }

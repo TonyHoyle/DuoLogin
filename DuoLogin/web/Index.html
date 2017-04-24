@@ -5,8 +5,17 @@
 </head>
 <body>
     <iframe id="duo_iframe"
-            data-host="host"
-            data-sig-request="sig_request"
-            data-post-action="local://web/Login.html"></iframe>
+            data-host="%%ApiHostname%%"
+            data-sig-request="%%SigRequest%%"
+            data-post-action="local://web/Index.cgi"></iframe>
+    <style>
+        #duo_iframe {
+            width: 100%;
+            min-width: 304px;
+            max-width: 620px;
+            height: 330px;
+            border: none;
+        }
+    </style>
 </body>
 </html>

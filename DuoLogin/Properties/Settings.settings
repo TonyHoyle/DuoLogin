@@ -1,7 +1,18 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DuoLogin.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="IntegrationKey" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DI2ZH186SAMF9YDU5GS2</Value>
+    </Setting>
+    <Setting Name="SecretKey" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Qml87YS3AsF5Nr5bCw0LQpluYbwmm6PKaknxGRvj</Value>
+    </Setting>
+    <Setting Name="ApiHostname" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">api-fa198eb1.duosecurity.com</Value>
+    </Setting>
+    <Setting Name="RandomKey" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ADMN3TRL42554GOQEAA36ITZFCS8CQVJHRWDX8ET</Value>
+    </Setting>
+  </Settings>
 </SettingsFile>
