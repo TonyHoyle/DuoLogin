@@ -19,7 +19,7 @@ namespace DuoLogin
             browser = new ChromiumWebBrowser("local://Web/Index.html");
             browser.MenuHandler = new MenuHandler();
             browser.LifeSpanHandler = new LifeSpanHandler();
-            browser.LoadHandler = new LoadHandler;
+            browser.LoadHandler = new LoadHandler();
         }
 
         private void Form1_Load(object sender, EventArgs e)
